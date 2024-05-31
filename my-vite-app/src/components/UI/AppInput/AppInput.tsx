@@ -1,3 +1,5 @@
+import { SCAppInput } from "./AppInput.style";
+
 interface TOAppInput  {
     inputType:"text" | "password" | "email",
     id:string,
@@ -9,7 +11,7 @@ interface TOAppInput  {
 
 const AppInput = ({inputType,id,inputValue,isRequired}:TOAppInput) => {
     return (
-       <input
+       <SCAppInput
           type={inputType}
           id={id}
           value={inputValue}

@@ -28,36 +28,3 @@
   font-weight: bold;
 }
 
-.registration-form input {
-  padding: 8px;
-  font-size: 1rem;
-  width: 100%;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-.registration-form button {
-  padding: 10px;
-  font-size: 1rem;
-  cursor: pointer;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  transition: background-color 0.3s ease;
-}
-
-.registration-form button:hover {
-  background-color: #0056b3;
-}
-
-.forgot-password-link {
-  margin-top: 10px;
-  color: #007bff;
-  text-decoration: none;
-}
-
-.forgot-password-link:hover {
-  text-decoration: underline;
-}

@@ -1,3 +1,5 @@
+import { SCAppButton } from "./AppButton.style";
+
 type TOAppButton = {
   buttonText:string,
   buttonType:"submit" | "button",
@@ -7,7 +9,7 @@ type TOAppButton = {
 
 const AppButton = ({buttonText,buttonType,isDisabled}:TOAppButton) => {
     return (
-        <button disabled={isDisabled} type={buttonType}>{buttonText}</button>
+        <SCAppButton disabled={isDisabled} type={buttonType}>{buttonText}</SCAppButton>
     );
 };
 

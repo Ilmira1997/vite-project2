@@ -1,3 +1,5 @@
+import { SCAppHeader } from "./AppHeader.style";
+
 interface TOAppHeader {
   headerType:"h1" | "h2" | "h3" | "h4" | "h5" |"h6",
   headerText:string
@@ -7,7 +9,7 @@ const AppHeader = ({headerText, headerType}:TOAppHeader) => {
     const renderHeader = () => {
         switch (headerType) {
             case "h1":
-                return <h1>{headerText}</h1>;
+                return <SCAppHeader>{headerText}</SCAppHeader>;
             case "h2":
                 return <h2>{headerText}</h2>;
             case "h3":

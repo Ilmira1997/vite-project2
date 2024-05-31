@@ -1,10 +1,12 @@
+import { SCAppLink } from "./AppLink.style";
+
 type TOAppLink = {
 linkText:string
 }
 
 const Applink = ({linkText}:TOAppLink) => {
     return (
-        <a  className="forgot-password-link">{linkText}</a>
+        <SCAppLink  className="forgot-password-link">{linkText}</SCAppLink>
     );
 };
 
